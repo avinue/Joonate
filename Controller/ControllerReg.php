@@ -15,7 +15,7 @@ class ControllerReg {
         $this->username = $this->ctrAuth->EscapeString($username);
         $this->password = $this->ctrAuth->EscapeString($this->ctrAuth->EncryptPassword(($password)));
         
-        $this->dbConn->query("INSERT INTO avi_users (userName, userPass) VALUE ('" . $this->username . "', '" . $this->password . "')");
+        $this->dbConn->query("INSERT INTO joonate_users (userName, userPass) VALUE ('" . $this->username . "', '" . $this->password . "')");
         
         header('location:../Created.php');
         

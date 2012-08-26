@@ -24,7 +24,7 @@ class ControllerLog {
 
             $_SESSION['logOffDT'] = date('Y-m-d H:i:s');
 
-            $this->dbConn->query("INSERT INTO avi_userlog (userName, logOn, logOff, logIP)
+            $this->dbConn->query("INSERT INTO joonate_userlog (userName, logOn, logOff, logIP)
                               VALUES ('" . $_SESSION['username'] .
                     "', '" . $_SESSION['logOnDT'] .
                     "', '" . $_SESSION['logOffDT'] .

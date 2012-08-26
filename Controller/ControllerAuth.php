@@ -19,7 +19,7 @@ class ControllerAuth {
         $this->username = $this->EscapeString($username);
         $this->password = $this->EscapeString($this->EncryptPassword(($password)));
 
-        $result = $this->dbConn->query("SELECT * FROM avi_users WHERE userName = '$this->username' AND userPass = '$this->password' LIMIT 1");
+        $result = $this->dbConn->query("SELECT * FROM joonate_users WHERE userName = '$this->username' AND userPass = '$this->password' LIMIT 1");
 
         //If we get one result we know the login is right.
         if (mysql_num_rows($result) == 1) {
