@@ -219,3 +219,9 @@ a{
     background-image: -webkit-linear-gradient(90deg, #114566, #178ad3);
     background-image: linear-gradient(90deg, #114566, #178ad3);
 }
+/*----------------------------------------------- memberPanel */
+.memberPanelFeed textarea{
+    width: 500px;
+    height: 200px;
+    resize: none;
+}
