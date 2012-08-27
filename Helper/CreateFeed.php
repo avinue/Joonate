@@ -6,6 +6,6 @@ $ctrFeeds = new ControllerFeeds();
 if (!isset($_POST['submit'])) {  
     header('location:../index');
 } else {
-    $ctrFeeds->checkLogin($_POST['feedTitle'], $_POST['feedInfo']);
+    $ctrFeeds->createFeed($_POST['feedTitle'], $_POST['feedAuthor'], $_POST['feedInfo']);
 }
 ?>

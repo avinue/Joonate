@@ -8,6 +8,8 @@
             <form action="Helper/CreateFeed.php" method="post">
                 <div>Title</div>
                 <div><input type="text" name="feedTitle" /></div>
+                <div>Author</div>
+                <div><input type="text" name="feedAuthor" /></div>
                 <div>Information</div>
                 <div><textarea type="text" name="feedInfo"></textarea></div>
                 <div><input type="submit" name="submit" value="Create"/></div>

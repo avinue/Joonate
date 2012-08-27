@@ -1,0 +1,22 @@
+.newFeeds{
+    margin: -2px 0px 0px 0px;
+    height: 100px;
+    width: 998px;
+
+    border: #c8c8c8 2px solid;
+}
+.newFeedsContent{
+    padding: 10px;
+}
+#feedTitle{
+    height: 20px;
+}
+#feedTitle h1{
+    font-size: 20px;
+}
+#feedAuthor{
+    height: 20px;
+}
+#feedInfo{
+    height: 40px;
+}
