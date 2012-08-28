@@ -1,9 +1,12 @@
 .newFeeds{
+    background: #ffffff;
     margin: -2px 0px 0px 0px;
     height: 100px;
     width: 998px;
-
-    border: #c8c8c8 2px solid;
+/*    border: #c8c8c8 2px solid;*/
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 .newFeedsContent{
     padding: 10px;
