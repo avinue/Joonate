@@ -11,7 +11,7 @@ root{
     display: block;
 }
 body{
-    background: #eae7e7;
+    background: #eae7e7 url('../Images/square_modern.jpg');
     font-size: 13px;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -21,7 +21,6 @@ a{
 /*----------------------------------------------- Content */
 .backgroundTop{
     margin: 0px auto 0px auto;
-    /*    background: ;*/
     height: 600px;
     width: 1600px;
     z-index: -1;
@@ -37,15 +36,12 @@ a{
 }
 .content{
     position: relative;
-    /*    background: ;*/
     margin: -600px auto 0px auto;
     width: 1000px;
-    min-height: 1200px; 
-    background: #ffffff;
+    min-height: 1200px;
 }
 .contentBorder{
     margin: -600px auto 0px auto;
-/*    background: ;*/
     width: 1020px;
     height: 100%;
 }
@@ -63,7 +59,6 @@ a{
     background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* IE10+ */
     background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
-
 }
 .topBarMiddel{
     margin: 0px auto 0px auto;
@@ -75,12 +70,12 @@ a{
 .contentBottom{
     position: absolute;
     color: #05abe0;
-    background: #145782;
+/*    background: #145782;*/
     width: 1000px;
     height: 300px;
     bottom: 0;
 }
-/*----------------------------------------------- individual */
+/*----------------------------------------------- topBar */
 .topBarUserInfo{
     position: absolute;
     padding: 10px 15px 10px 15px;
